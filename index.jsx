@@ -59,8 +59,7 @@ var Player = React.createClass({
             console.log('mute set');
 
             this.player.on('loadedmetadata', function () {
-                this.player.on('waiting')
-
+                console.log('meta data loaded !');
             }.bind(this));
 
         }.bind(this));
